@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.homecontainer {
+    /* border: 2px solid black; */
+    width: 70%;
+    margin: 10vh auto;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.line {
+    height: 1px;
+    background: black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.familytreecontainer {
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3 ;
+}
+.familydetailscontainer {
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 4;
+}
+.buttoncontainer{
+    margin: 2px;
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input:focus {
+    outline:none;
+}

@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "id": "0",
+      "name": "Sattar",
+      "spouse": "Amrahov",
+      "location": 25,
+      "birthyear": 0,
+      "address": "asfsaffe",
+      "children": [
+        {
+          "id": "1",
+          "name": "John",
+          "spouse": "Doe",
+          "location": 25,
+          "birthyear": 23,
+          "address": "asfsaffe",
+          "parent": "0",
+          "children": [
+            {
+              "id": "2",
+              "name": "ravi",
+              "spouse": "teja",
+              "location": 25,
+              "birthyear": 23,
+              "address": "asfsaffe",
+              "parent": "1",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Lena",
+          "spouse": "Lisan",
+          "location": 25,
+          "birthyear": 40,
+          "address": "asfsaffe",
+          "parent": "0",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
